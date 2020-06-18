@@ -1,0 +1,1 @@
+var itensMenu = document.querySelectorAll(".itens-header");
