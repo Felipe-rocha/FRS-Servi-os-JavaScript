@@ -44,27 +44,31 @@ main{
     width: 100%;
     height: 100%;
     margin: 40px auto;
-
+    text-align: center;
 }
 
 main div{
-    border-radius: 30px;
+    display: inline-block;
     padding: 40px;
     margin: 40px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.projetos-botao{
-    margin: 40px;
-    margin-right: 40px;
+#quadro-informações{
+    border-radius: 15px;
+    padding: 140px;
+    margin: 20px;
     text-align: center;
+    box-sizing: border-box;
     background-color:#fafafa;
+    cursor: pointer;
 }
 
-.projetos-botao2{
-    margin: 40px;
-    margin-right: 40px;
-    text-align: center;
-    background-color:#fafafa;
+#quadro-informações:hover{
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 10px;
 }
 
 footer{
@@ -72,12 +76,16 @@ footer{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    text-align: center;
 }
 
 .texto-redesocial{
     font-size: 20px;
     padding: 15px;
+    text-align: center;
+}
+
+.imagens-rodape {
+    text-align: center;
 }
 
 .imagens-rodape li{
@@ -88,20 +96,29 @@ footer{
 #tamanho-imagem {
     max-height: 28px;
 }
-
-.volta-topo{
-    padding: 10px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.copyright-voltatopo p{
-    display: inline-block;
-    margin: 20px;
+.copyright-voltatopo{
+    text-align: center;
 }
 
 .copyright{
     color: black;
-    padding: 20px;
+    padding: 15px;
+}
+
+.div-volta-topo{
+    text-align: right;
+}
+
+.div-volta-topo p{
+    padding: 7px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 18px;
+    cursor: pointer;
+}
+
+.remove-tela{
+    display: none;
 }
